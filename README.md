@@ -1,2 +1,55 @@
-# cmptrlv.github.io
-A website for me!
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Homepage: CMPTRLV</title>
+	<style>
+		body {
+			background-color:rgb(27, 148, 136);
+			font-family:monospace;
+			padding-bottom: 4rem;
+			/*background-image: url(https://images.radio-canada.ca/q_auto,w_960/v1/ici-info/16x9/windows-95-bureau.png);*/
+			}
+		marquee {
+			font-size:15px;
+			color:rgb(58, 240, 46);
+			}
+		p {
+			text-align: center;
+			}
+		#kierratitle {
+			color:rgb(58, 240, 46);
+			font-weight:heavy;
+			}
+		footer {
+			text-align: center;
+			opacity: 30%;
+			clear:both;
+			position: relative;
+			bottom:0px;
+			}
+		li {
+			display: inline-block;
+		}
+	</style>
+	</head>
+	<body>
+		<audio controls> <!--autoplay?-->
+			Yellow Lights - Keke Palmer. 2018.
+			<source src="Yellow Lights.mp3" type="audio/mp3"></audio>
+		<marquee>lover of beautiful things...CMPTRLV</marquee>
+		<p> < <span id="kierratitle">Kierra</span> > </p>
+		<p id="links">
+			<img id="missy" src="https://cmptrlv.carrd.co/assets/images/image01.gif?v=bfbe3ac4" height="200"> <br><br>
+			[<a target="_blank" href="http://cmptrlv.tumblr.com/">Tumblr</a>] [<a target="_blank" href="https://letterboxd.com/limejuice99/">Letterboxd</a>]
+			[<a target="_blank" href="http://twitter.com/uhreann">Twitter</a>] <br>
+			[<a href="cmptrlvartists.html">Fav Artists</a>] [<a href="cmptrlvwatching.html">Currently Watching</a>] <br>
+			[<a href="cmptrlvfood.html">Recipes</a>] [<a href="cmptrlvblog.html">Blog</a>]
+			<p> < / <span id="kierratitle">Enjoy</span> > </p>
+		</p>
+		<footer>
+			<p>[<a href="Me.html">Site Plans</a>]</p>
+			<p>© CMPTRLV, Inc. All rights reserved.</p>
+		</footer>
+	</body>
+</html>
